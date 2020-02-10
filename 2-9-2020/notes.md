@@ -37,16 +37,6 @@ Some _invalid_ variable names are:
 - `for` (this keyword is reserved for other uses)
 - `a variable` (this name contains whitespace)
 
-#### Variables Exercise
-Open up your REPL and declare some variables. 
-- Can you change a variable's value by re-assigning it to something else? 
-- Can you add one variable to another? 
-- What happens if you add two string variables together? i.e., what happens when you execute the following code?
-```python
-x = "python"
-y = "is cool"
-x + y # What happens here?
-```
 
 ### Types
 Every value has a _type_. To see the type of a value, run `type(value)` in your REPL. For example,
@@ -100,3 +90,20 @@ else:
     print("why not say hello first?")
 ```
 In this example, `if text == "hello"` [ ... ] `first?")` is a single _if-else statement_. 
+
+# Exercises
+## Variables Exercise
+Open up your REPL and declare some variables. 
+- Can you change a variable's value by re-assigning it to something else? 
+- Can you add one variable to another? 
+- What happens if you add two string variables together? i.e., what happens when you execute the following code?
+```python
+x = "python"
+y = "is cool"
+x + y # What happens here?
+```
+## User Input Exercise
+Open up your repl and store some user input in a variable called `userResponse`. 
+
+## Types Exercise
+Open up your repl and figure out the type of `5 + 5`
