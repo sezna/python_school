@@ -83,7 +83,7 @@ This would not work, because `while` is a _statement_ and has no value, meaning 
 
 Consider the following snippet.
 ```python
-let text = input()
+text = input()
 if text == "hello":
     print("well, howdy")
 else:
